@@ -1,0 +1,23 @@
+.switching-tabs {
+  height: 34px;
+  border-radius: 20px;
+}
+
+.tabItems {
+  height: 30px;
+}
+
+.tabItem {
+  width: 140px;
+  // z-index: 1;
+  transition: color ease 0.3s;
+}
+
+.movingBg {
+  height: 30px;
+  width: 140px;
+  border-radius: 15px;
+  // position: absolute;
+  // left: 0;
+  transition: left cubic-bezier(0.88, -0.35, 0.565, 1.35) 0.4s;
+}

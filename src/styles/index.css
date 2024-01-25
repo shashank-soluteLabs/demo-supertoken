@@ -1,0 +1,121 @@
+@tailwind preflight;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(232, 237, 238);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Noto Serif', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-gray-232{
+  background-color: rgb(232, 237, 238);
+}
+
+.div-with-bg{
+  background-image: url("../images/bg_image.png");
+}
+
+.div-with-bg-prajavani{
+  background-image: url("../images/prajavani-bg-splash.png");
+}
+
+.footer-bg-gradiant{
+  background: linear-gradient(180deg, #F2F2F2 0%, rgba(249, 250, 251, 0) 100%);
+}
+
+.toggle-container {
+  overflow: hidden;
+  border-radius: 25px;
+  background-color: #e0e0e0;
+}
+
+.toggle-button {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #dcdcdc;
+}
+
+.button1 {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.button2 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.input-border-clr{
+  border-color: rgba(8, 126, 158, 1);
+}
+
+.divider-clr-section {
+  border-color: rgba(0,0,0,.12);
+  border-top-style: solid;
+}
+
+.text-invalid{
+  color: rgba(255, 0, 0, 1);
+}
+
+.error-show {
+  color: rgb(255, 81, 81);
+  animation: shake 0.3s linear;
+}
+
+.bg-amber-255{
+  background-color: rgba(255, 191, 67, 1);
+}
+
+.check-box-clr{
+  color: rgba(8, 126, 158, 1) !important ;
+}
+
+.fill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner {
+  width: 80px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
